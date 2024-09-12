@@ -1,0 +1,53 @@
+/* 背景图设置 */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url('images/image2.jpg') no-repeat center center fixed; /* 使用image1作为背景 */
+    background-size: cover; /* 背景图覆盖整个屏幕 */
+    height: 100vh; /* 让背景图高度占满整个视窗 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 页面内容的容器设置 */
+.content {
+    background-color: rgba(0, 0, 0, 0.6); /* 半透明的黑色背景 */
+    padding: 40px;
+    text-align: center;
+    border-radius: 10px; /* 圆角边框 */
+    color: white; /* 白色文字 */
+    max-width: 600px; /* 最大宽度，确保内容不太宽 */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); /* 添加阴影效果 */
+}
+
+/* 标题样式 */
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+/* 段落样式 */
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+/* 链接按钮样式 */
+a.btn {
+    background-color: #3498db; /* 按钮背景色 */
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+/* 按钮悬停效果 */
+a.btn:hover {
+    background-color: #2980b9; /* 悬停时变暗 */
+}
